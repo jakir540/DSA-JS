@@ -1,13 +1,13 @@
 
 var twoSum = function(nums, target) {
-    console.log(nums[nums.length-1])
+    console.log([nums.length-1])
    let i = 0;
    let j = nums.length-1;
    let sum = 0
    while(i < j){
     sum = nums[i] + nums[j];
 
-    sum < target ? j--:i++ 
+    sum > target ? j--:i++ 
     
    }
 
